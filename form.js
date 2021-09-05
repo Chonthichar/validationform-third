@@ -21,7 +21,7 @@ document.querySelector('.submit').addEventListener('click', function (e) {
         e.preventDefault()
         document.getElementById('error').textContent = error.join(', ');
     } else {
-        document.getElementById('error').innerText = " ";
+        document.getElementById('error').textContent = " ";
     }
 
     function emailPaten() {
